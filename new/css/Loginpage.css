@@ -1,0 +1,187 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Common CSS
+2. Page CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Common CSS
+--------------------------------------*/
+.login-section__icon--google {
+  height: 45px;
+  width: 45px;
+}
+
+/*-------------------------------------
+  2. Page CSS
+--------------------------------------*/
+.login-section__image-column {
+  border-top-right-radius: var(--radius-2xl);
+  border-bottom-right-radius: var(--radius-2xl);
+  background-color: var(--blue_gray_900);
+  width: 56%;
+  padding: 93px 56px 94px 56px;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+.login-section__image {
+  height: 581px;
+  width: 85%;
+}
+
+.login-section__form-column {
+  gap: 37px;
+  display: flex;
+  width: 32%;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.login-section__input-column {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.login-section__label--email {
+  margin-left: 10px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.login-section__input--email {
+  color: var(--white_A700_7c) !important;
+  margin-top: 7px;
+}
+
+.login-section__password-column {
+  margin-top: 21px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.login-section__label--password {
+  margin-left: 12px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.login-section__input--password {
+  color: var(--white_A700_7c) !important;
+  margin-top: 11px;
+}
+
+.login-section__link--forgot-password {
+  margin-top: 6px;
+  align-self: end;
+}
+
+.login-section__actions-row {
+  margin-top: 33px;
+  align-self: stretch;
+}
+
+.login-section__login-column {
+  gap: var(--space-xs);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.login-section__button--login {
+  font-weight: 600;
+  width: 100%;
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.login-section__confirmation-row {
+  margin-left: 79px;
+  gap: var(--space-sm);
+  display: flex;
+  flex-wrap: wrap;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.login-section__text--confirmation {
+  align-self: start;
+}
+
+.signup-link-link {
+  align-self: end;
+}
+
+.login-section__link--signup {
+  color: var(--cyan_900) !important;
+}
+
+.login-section__social-row {
+  margin-top: 42px;
+  align-self: stretch;
+}
+
+.login-section__divider-column {
+  gap: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-section__divider-row {
+  gap: var(--space-lg);
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.login-section__line--left {
+  height: 1px;
+  margin-bottom: 9px;
+  align-self: end;
+  background-color: var(--black_900);
+  flex: 1;
+  @media only screen and (max-width: 550px) {
+    align-self: stretch;
+  }
+}
+
+.login-section__text--or {
+  height: 22px;
+  width: 22px;
+}
+
+.login-section__line--right {
+  height: 1px;
+  background-color: var(--black_900);
+  flex: 1;
+  @media only screen and (max-width: 550px) {
+    align-self: stretch;
+  }
+}
+
+.login-section__social-icons-row {
+  width: 39%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}

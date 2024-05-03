@@ -1,0 +1,83 @@
+/*=========== TABLE OF CONTENTS ===========
+1. CSS Variables
+2. Utility CSS
+3. Common CSS
+==========================================*/
+
+/*-------------------------------------
+  1. CSS Variables
+--------------------------------------*/
+:root {
+  /*------Color variables------*/
+  --white_A700: #ffffff;
+  --white_A700_7c: #ffffff7c;
+  --white_A700_bf: #ffffffbf;
+  --white_A700_7f: #ffffff7f;
+  --white_A700_33: #ffffff33;
+  --blue_gray_100: #d9d9d9;
+  --blue_gray_200: #9fcbc0;
+  --blue_gray_900: #2c3531;
+  --blue_gray_900_bf: #2c3531bf;
+  --blue_gray_900_d8: #2c3531d8;
+  --black_900: #000000;
+  --black_900_19: #00000019;
+  --cyan_900: #116466;
+  --gray_600: #7a7d8b;
+  --gray_300_02: #e8e8e3;
+  --gray_300_03: #e2e2e2;
+  --gray_300_01: #dfe0eb;
+  --red_200_ba: #d9b08cba;
+  --red_200_c4: #d9b08cc4;
+
+  /*------Shadow variables------*/
+  --shadow-xs: 0px 2px 4px 0px #00000011;
+
+  /*------Border radius variables------*/
+  --radius-xs: 8px;
+  --radius-sm: 10px;
+  --radius-md: 13px;
+  --radius-lg: 15px;
+  --radius-xl: 20px;
+  --radius-2xl: 30px;
+  --radius-3xl: 40px;
+
+  /*------Spacing variables------*/
+  --space-xs: 4px;
+  --space-sm: 7px;
+  --space-md: 8px;
+  --space-lg: 16px;
+  --space-xl: 18px;
+  --space-2xl: 44px;
+}
+
+/*-------------------------------------
+  2. Utility CSS
+--------------------------------------*/
+.flex-col-center-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-------------------------------------
+  3. Common CSS
+--------------------------------------*/
+.login-page {
+  background-color: var(--white_A700);
+  width: 100%;
+  display: flex;
+}
+
+.login-section {
+  width: 91%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+}

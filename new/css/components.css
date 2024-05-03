@@ -1,0 +1,185 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Button CSS
+2. Input CSS
+3. Text CSS
+4. Heading CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Button CSS
+--------------------------------------*/
+.ui.button.round {
+  border-radius: var(--radius-lg);
+}
+
+.ui.button.size-sm {
+  height: 48px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 18px;
+}
+
+.ui.button.size-md {
+  height: 60px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 20px;
+}
+
+.ui.button.size-xs {
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+}
+
+.ui.button.fill.blue_gray_200 {
+  background-color: var(--blue_gray_200);
+  color: var(--white_A700);
+}
+
+.ui.button.fill.blue_gray_100 {
+  background-color: var(--blue_gray_100);
+  color: var(--black_900);
+}
+
+.ui.button.fill.blue_gray_900_d8 {
+  background-color: var(--blue_gray_900_d8);
+  color: var(--white_A700);
+}
+
+.ui.button {
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-lg);
+}
+
+/*-------------------------------------
+  2. Input CSS
+--------------------------------------*/
+.ui.input.round {
+  border-radius: var(--radius-lg);
+}
+
+.ui.input.size-xs {
+  height: 60px;
+  padding-left: 33px;
+  padding-right: 33px;
+  font-size: 14px;
+}
+
+.ui.input.fill.blue_gray_900_bf {
+  background-color: var(--blue_gray_900_bf);
+  color: var(--white_A700_7f);
+}
+
+.ui.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: text;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--blue_gray_900_bf);
+  align-self: stretch;
+  border-radius: var(--radius-lg);
+}
+
+/*-------------------------------------
+  3. Text CSS
+--------------------------------------*/
+.ui.text.size-xs {
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.ui.text.size-s {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ui.text {
+  color: var(--white_A700);
+  font-family: Inter;
+}
+
+/*-------------------------------------
+  4. Heading CSS
+--------------------------------------*/
+.ui.heading.size-3xl {
+  font-size: 40px;
+  font-weight: 800;
+  @media only screen and (max-width: 1050px) {
+    font-size: 38px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 36px;
+  }
+}
+
+.ui.heading.size-2xl {
+  font-size: 24px;
+  font-weight: 700;
+  @media only screen and (max-width: 1050px) {
+    font-size: 22px;
+  }
+}
+
+.ui.heading.size-xl {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ui.heading.size-5xl {
+  font-size: 60px;
+  font-weight: 600;
+  @media only screen and (max-width: 1050px) {
+    font-size: 52px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 46px;
+  }
+}
+
+.ui.heading.size-4xl {
+  font-size: 45px;
+  font-weight: 800;
+  @media only screen and (max-width: 1050px) {
+    font-size: 41px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 35px;
+  }
+}
+
+.ui.heading.size-s {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.ui.heading.size-md {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ui.heading.size-xs {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.ui.heading.size-lg {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.ui.heading {
+  color: var(--black_900);
+  font-family: Mulish;
+}

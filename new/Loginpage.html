@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Login - Access Your Account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Log in to your account using your email address and password. Secure and easy access to manage your account. Forgot your password? Reset it here."
+    />
+    <img
+      alt="Logo"
+      src="https://appproject.dhiwise.com/dhiwise-logo.png?c=&v="
+      style="width: 0px; height: 0px; display: none"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/components.css" />
+    <link rel="stylesheet" type="text/css" href="./css/Loginpage.css" />
+  </head>
+  <body>
+    <!-- main container section -->
+    <div class="login-page">
+      <!-- login section -->
+      <div class="login-section">
+        <!-- image column section -->
+        <div class="flex-col-center-center login-section__image-column">
+          <img src="public/images/img_secure_login_pana.svg" alt="secure login image" class="login-section__image" />
+        </div>
+
+        <!-- form column section -->
+        <div class="login-section__form-column">
+          <h1 class="ui heading size-4xl">Log in</h1>
+          <div class="login-section__input-column">
+            <h2 class="login-section__label--email ui heading size-xl">Email address</h2>
+            <label class="login-section__input--email ui input blue_gray_900_bf size-xs fill round">
+              <input name="Email Input" placeholder="Enter your email" type="email" />
+            </label>
+            <div class="login-section__password-column">
+              <h3 class="login-section__label--password ui heading size-xl">Password</h3>
+              <label class="login-section__input--password ui input blue_gray_900_bf size-xs fill round">
+                <input name="Password Input" placeholder="Enter password" type="password" />
+              </label>
+              <h4 class="login-section__link--forgot-password ui heading size-s">Forgot password ?</h4>
+            </div>
+
+            <!-- login form section -->
+            <div class="login-section__actions-row">
+              <div class="login-section__login-column">
+                <button class="login-section__button--login ui button blue_gray_200 size-md fill round">Log in</button>
+                <div class="login-section__confirmation-row">
+                  <h5 class="login-section__text--confirmation ui heading size-s">Don’t Have An Account ?</h5>
+                  <a href="#" class="signup-link-link">
+                    <h6 class="login-section__link--signup ui heading size-s">Sign up</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- social login section -->
+            <div class="login-section__social-row">
+              <div class="login-section__divider-column">
+                <div class="login-section__divider-row">
+                  <div class="login-section__line--left"></div>
+                  <h6 class="login-section__text--or ui heading size-xl">Or</h6>
+                  <div class="login-section__line--right"></div>
+                </div>
+                <div class="login-section__social-icons-row">
+                  <img
+                    src="public/images/img_devicon_google.svg"
+                    alt="google icon"
+                    class="login-section__icon--google"
+                  />
+                  <img src="public/images/img_facebook.svg" alt="facebook icon" class="login-section__icon--google" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

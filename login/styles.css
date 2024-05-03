@@ -1,0 +1,260 @@
+.login-page {
+    background: #FFFFFF;
+    display: flex;
+    padding-right: 127px;
+    width: 1366px;
+    box-sizing: border-box;
+  }
+  .login-page .forgot-password {
+    position: absolute;
+    right: 126px;
+    bottom: 366px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 12px;
+    color: #000000;
+  }
+  .login-page .dont-have-an-account {
+    margin-right: 7.6px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 12px;
+    color: #000000;
+  }
+  .login-page .sign-up {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--color-2, #116466);
+  }
+  .login-page .log-in {
+    margin: 0 1px 41px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 45px;
+    color: #000000;
+  }
+  .login-page .frame-8 {
+    position: relative;
+    margin-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .login-page .email-address {
+    margin: 0 10.3px 8px 10.3px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }
+  .login-page .password {
+    margin: 0 12.3px 12px 12.3px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }
+  .login-page .log-in-1 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  .login-page .line-2 {
+    background: #000000;
+    margin: 12px 16.5px 9px 0;
+    width: 173px;
+    height: 1px;
+  }
+  .login-page .or {
+    margin-right: 17.5px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }
+  .login-page .line-3 {
+    background: #000000;
+    margin: 11px 0 10px 0;
+    width: 172px;
+    height: 1px;
+  }
+  .login-page .enter-your-email {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.49);
+  }
+  .login-page .enter-password {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.49);
+  }
+  .login-page .rectangle-24 {
+    border-radius: 0 30px 30px 0;
+    background: #2C3531;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+  }
+  .login-page .vector {
+    width: 45px;
+    height: 45px;
+  }
+  .login-page .google {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    box-sizing: border-box;
+  }
+  .login-page .devicongoogle {
+    width: 45px;
+    height: 45px;
+  }
+  .login-page .secure-loginpana {
+    position: relative;
+    width: 492px;
+    height: 581px;
+  }
+  .login-page .container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .login-page .container-1 {
+    margin-right: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 156px;
+    box-sizing: border-box;
+  }
+  
+  .login-page .container-3 {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .login-page .container-4 {
+    margin-bottom: 37px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .login-page .container-5 {
+    margin: 82px 0 105px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    box-sizing: border-box;
+  }
+ 
+  .login-page .container-7 {
+    border-radius: 15px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    padding: 18px 1px 18px 0;
+    width: 400px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .login-page .container-8 {
+    border-radius: 0 30px 30px 0;
+    background: #11101D;
+    position: relative;
+    margin-right: 145px;
+    display: flex;
+    padding: 93px 0 94px 0;
+    width: 694px;
+    height: 768px;
+    box-sizing: border-box;
+  }
+  .login-page .container-6 input,
+  .login-page .container-2 input
+   {
+    border-radius: 15px;
+    background: rgba(44, 53, 49, 0.75);
+    padding: 20px 15px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10%;
+  }
+
+  .login-page #logInBtn {
+    border-radius: 15px;
+    background: #9FCCC0;
+    border: none;
+    padding: 20px 40px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10%;
+  }
+  
+  .login-page #logInBtn:hover {
+    background: #2C3531;
+  }
+
+   .login-page #signUpBtn {
+    border-radius: 0px;
+    border: none;
+    padding: 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 10px;
+    color: #116466;
+    width: 40%;
+    cursor: pointer;
+    margin-bottom: 10%;
+  }
+  
+  .login-page #ForgotPasswordBtn {
+    border-radius: 0px;
+    border: none;
+    padding: 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 10px;
+    color: #116466;
+    width: 40%;
+    cursor: pointer;
+    margin-bottom: 10%;
+  }

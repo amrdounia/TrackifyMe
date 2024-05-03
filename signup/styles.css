@@ -1,0 +1,411 @@
+.sign-up-page .container-3 {
+    margin: 0 1px 10.9px 1px;
+    align-self: flex-start;
+    width: 37.3px;
+    height: 7.9px;
+  }
+  
+  .sign-up-page .password {
+    margin: 0 7.8px 8px 7.8px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .sign-up-page .confirm-your-password {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .sign-up-page .confirm-password {
+    margin: 0 8.6px 8px 8.6px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .sign-up-page .sign-up {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+margin: 0%;
+  }
+  
+  .sign-up-page {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding-right: 127px;
+    width: 1366px;
+    box-sizing: border-box;
+  }
+  
+  .sign-up-page .sign-up-1 {
+    margin: 0 1px 38px 0;
+    display: inline-block;
+    align-self: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 45px;
+    color: #000000;
+  }
+  
+  .sign-up-page .frame-8 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  
+  .sign-up-page .full-name {
+    margin: 0 9.1px 11px 9.1px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .sign-up-page .email {
+    margin: 0 7.6px 8px 7.6px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .sign-up-page .enter-your-password {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .sign-up-page .enter-your-fullname {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .sign-up-page .enter-your-email {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .sign-up-page .background-complete {
+    position: absolute;
+    left: 50%;
+    top: 39px;
+    transform: translate(-50%, 0);
+    width: 619px;
+    height: 605px;
+  }
+  
+  .sign-up-page .floor {
+    position: relative;
+    display: flex;
+    width: 449.4px;
+    height: 0.9px;
+    box-sizing: border-box;
+  }
+  
+  .sign-up-page .vector-33 {
+    width: 449.4px;
+    height: 0.9px;
+  }
+  
+  .sign-up-page .plant {
+    position: absolute;
+    top: 351.4px;
+    right: 133.7px;
+    width: 120.4px;
+    height: 234.9px;
+  }
+  
+  .sign-up-page .padlock {
+    position: absolute;
+    top: 46.7px;
+    right: 140.4px;
+    width: 120.7px;
+    height: 163.7px;
+  }
+  
+  .sign-up-page .device {
+    position: relative;
+    display: flex;
+    padding: 62.7px 0 89.7px 8.9px;
+    width: 209.3px;
+    box-sizing: border-box;
+  }
+  
+  .sign-up-page .vector-45 {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%, 0);
+    width: 209.3px;
+    height: 483.7px;
+  }
+  
+  .sign-up-page .vector-46 {
+    position: absolute;
+    left: 9.6px;
+    top: 14.3px;
+    width: 190px;
+    height: 452.3px;
+  }
+  
+  .sign-up-page .vector-47 {
+    position: absolute;
+    left: 50%;
+    top: 374.6px;
+    transform: translate(-50%, 0);
+    width: 111.6px;
+    height: 38.5px;
+  }
+  
+  .sign-up-page .sign-up {
+    margin-right: 24.6px;
+    align-self: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #E8E8E3;
+  }
+  
+  .sign-up-page .group {
+    opacity: 0.2;
+    position: absolute;
+    left: 45px;
+    bottom: 168.1px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  
+  .sign-up-page .vector-70 {
+    margin: 0 3.3px 0.8px 0;
+    width: 6px;
+    height: 6.8px;
+  }
+  
+  .sign-up-page .vector-71 {
+    margin: 0.1px 3.3px 0.2px 0;
+    width: 6px;
+    height: 7.2px;
+  }
+  
+  .sign-up-page .vector-72 {
+    margin: 0.1px 3.3px 0.7px 0;
+    width: 6px;
+    height: 6.8px;
+  }
+  
+  .sign-up-page .vector-73 {
+    margin: 0.1px 3.3px 0.6px 0;
+    width: 6px;
+    height: 6.8px;
+  }
+  
+  .sign-up-page .vector-74 {
+    margin: 0.2px 3.3px 0.6px 0;
+    width: 6px;
+    height: 6.8px;
+  }
+  
+  .sign-up-page .vector-75 {
+    margin: 0.2px 3.3px 0.5px 0;
+    width: 6px;
+    height: 6.8px;
+  }
+  
+  .sign-up-page .vector-76 {
+    margin: 0.3px 3.3px 0 0;
+    width: 6px;
+    height: 7.2px;
+  }
+  
+  .sign-up-page .vector-77 {
+    margin: 0.3px 3.3px 0.4px 0;
+    width: 6px;
+    height: 6.8px;
+  }
+  
+  .sign-up-page .vector-78 {
+    margin: 0.4px 0;
+    width: 6px;
+    height: 6.8px;
+  }
+  
+  .sign-up-page .container-6 {
+    margin: 0 0 22.9px 0.5px;
+    width: 149.6px;
+    height: 29px;
+  }
+  
+  .sign-up-page .container-7 {
+    border-radius: 0 30px 30px 0;
+    background: #2C3531;
+    position: relative;
+    margin-right: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 40px;
+    width: 694px;
+    box-sizing: border-box;
+  }
+  
+  .sign-up-page .container-8 {
+    border-radius: 15px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    padding: 18px 1px 18px 0;
+    width: 400px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+  }
+  
+
+  
+  .sign-up-page .container-10 {
+    margin: 140.9px 71.1px 246.6px 0;
+    width: 74.7px;
+    height: 96.2px;
+  }
+  
+  .sign-up-page .container-11 {
+    margin: 0 0.7px 11.1px 0.7px;
+    align-self: flex-start;
+    width: 37.3px;
+    height: 7.9px;
+  }
+  
+  .sign-up-page .container-12 {
+    margin: 0 0.3px 25.9px 0.2px;
+    width: 149.6px;
+    height: 28.9px;
+  }
+  
+  .sign-up-page .container-13 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 150.1px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  
+
+  
+  .sign-up-page .container-15 {
+    margin: 82px 0 41px 0;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-sizing: border-box;
+  }
+  
+
+  
+  .sign-up-page .container-17 {
+    position: relative;
+    margin: 0 85.4px 124.1px 0;
+    display: flex;
+    flex-direction: row;
+    width: 355.1px;
+    box-sizing: border-box;
+  }
+  
+  .sign-up-page .container-22 {
+    margin: 0 0.9px 30.6px 0;
+    align-self: center;
+    width: 68.4px;
+    height: 9.6px;
+  }
+  
+  .sign-up-page .container-23 {
+    margin: 0 0.5px 58.9px 0;
+    width: 149.6px;
+    height: 29px;
+  }
+  
+
+  
+  .sign-up-page .container-25 {
+    margin: 0 0 6.1px 1.2px;
+    align-self: center;
+    width: 19.2px;
+    height: 23.7px;
+  }
+  
+  .sign-up-page .container-27 {
+    margin: 0 0.4px 10.8px 0.4px;
+    align-self: flex-start;
+    width: 37.3px;
+    height: 7.9px;
+  }
+  .sign-up-page .container-16 input,
+  .sign-up-page .container-24 input,
+  .sign-up-page .container-14 input,
+  .sign-up-page .container-9 input {
+    border-radius: 15px;
+    background: rgba(44, 53, 49, 0.75);
+    padding: 20px 15px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10%;
+  }
+  .sign-up-page #signUpBtn {
+    border-radius: 15px;
+    background: #9FCCC0;
+    border: none;
+    padding: 20px 40px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .sign-up-page #signUpBtn:hover {
+    background: #2C3531;
+  }
